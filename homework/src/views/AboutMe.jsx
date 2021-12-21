@@ -29,16 +29,16 @@ export default function AboutMe() {
       </div>
       <div className={s.boxima}>
         <div className={s.net}>
-            <img className={s.image} src="https://img.icons8.com/ios-filled/50/000000/github.png" />
-            <p>GitHub</p>
+            <a style={{color: "black", textDecoration: "none"}} href="https://github.com/PaulPeraltta"><img className={s.image} src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+            <p>GitHub</p></a>
         </div>
         <div className={s.net}>
-            <img className={s.image} src="https://img.icons8.com/color/50/000000/linkedin.png" />
-            <p>LinkedIn</p>
+            <a style={{color: "black", textDecoration: "none"}} href="https://www.linkedin.com/in/pablo-peralta-it/"><img className={s.image} src="https://img.icons8.com/color/50/000000/linkedin.png" />
+            <p>LinkedIn</p></a>
         </div>
         <div className={s.net}>
-            <img className={s.image} src="https://img.icons8.com/fluency/48/000000/gmail-new.png" />
-            <p>Gmail</p>
+            <a style={{color: "black", textDecoration: "none"}} href="mailto:pabloperalta.it@gmail.com"><img className={s.image} src="https://img.icons8.com/fluency/48/000000/gmail-new.png" />
+            <p>Gmail</p></a>
         </div>
       </div>
       </div>

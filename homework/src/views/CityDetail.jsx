@@ -8,7 +8,7 @@ export default function CityDetail({ id , onBack }) {
     React.useEffect(() => {
         fetchById(id, setCity);
     }, [id, setCity]);
-
+    console.log(city)
     return (
         <div>
             <button onClick={onBack} className={s.btnback}><img src="https://img.icons8.com/windows/32/000000/long-arrow-left.png" /></button>

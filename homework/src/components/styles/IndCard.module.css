@@ -1,10 +1,10 @@
 .cardInd {
     width: 700px;
     height: 350px;
-    border-radius: 5px;
+    border-radius: 8px;
     border-bottom-left-radius: 80px;
     border-top-right-radius: 80px;
-    margin-top: 5%;
+    margin-top: 80px;
     margin-left: 95px;
     margin-right: 95px;
     padding-top: 35px;
@@ -12,10 +12,11 @@
     /* padding-left: 6.5%;
     padding-right: 6.5%; */
     /* margin-bottom: 90px; */
-    background: linear-gradient(15deg, rgba(0,0,0,0.2), rgba(0,0,0,0.1), rgba(0,0,0,0.05));
+    border-color: 0.5px black solid;
+    /* background: linear-gradient(5deg, rgba(255, 255, 255, 0.911),rgba(88, 208, 255, 0.548), rgba(168, 235, 255, 0.822)); */
     background-size: 200% 100%;
     animation: BgGradient 2s ease infinite;
-    /* background-color: rgba(0,0,0,0.2); */
+    background-color: rgba(255, 255, 255, 0.473);
     display: flex;
     justify-content: center;
 }

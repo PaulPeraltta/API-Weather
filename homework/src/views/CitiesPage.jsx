@@ -17,7 +17,6 @@ export default function CitiesPage({data, onSearch, handleOnClose}) {
             </div>
             <div className={s.cardInd}>
                 {data.length > 0 ? (
-                    
                         <IndCard
                             max={data[data.length - 1].max}
                             min={data[data.length - 1].min}
