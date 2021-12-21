@@ -9,7 +9,7 @@ export default function Card(props) {
   return (
     <div className={s.card}>
       <div>
-        <button className={s.btn} onClick={props.onClose}>X</button>
+        <button className={s.btn} onClick={props.onClose}><img className={s.closeImg} src="https://img.icons8.com/material-rounded/24/ffffff/delete-sign.png" alt="Close"/></button>
       </div>
       <div className={s.poss}>
         <div className={s.align}>
@@ -25,11 +25,11 @@ export default function Card(props) {
             </div>
           </div>
         </div>
-        <div style={{width: '100px', height: '100px', alignItems: 'center'}}>
+        <div style={{width: '100px', height: '100px', alignItems: 'center', marginLeft:'20px'}}>
           <img className={s.img} src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt='img' />
         </div>
         <div className={s.info}>
-        <Link to={`/city/${props.id}`}><p>Informacion Detallada</p></Link>
+        <Link to={`/city/${props.id}`} style={{color: 'rgba(255, 255, 255, 0.692)', textDecoration:'none'}}><p>Informacion Detallada</p></Link>
         </div>
       </div>
     </div>
