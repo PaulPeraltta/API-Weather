@@ -1,0 +1,51 @@
+.cards {
+    width: 100%;
+    margin-top: 4%;
+    /* margin-bottom: 2%; */
+}
+
+.not {
+    font-size: 180%;
+    /* margin-top: 15%; */
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+@media (max-width:320px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        /* margin-left: -55px; */
+        /* margin-right: 5px; */
+        width: 100%;
+    }
+
+    .not {
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
+
+    .searchbar {
+        /* background-color: whitesmoke; */
+        position: absolute;
+        bottom: 80px;
+        left: 130px;
+        position: fixed;
+    }
+/* 
+    .fond {
+        background-color: whitesmoke; 
+        position: absolute;
+        bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100%;
+        position: fixed;
+        background-color: black ;
+    } */
+}

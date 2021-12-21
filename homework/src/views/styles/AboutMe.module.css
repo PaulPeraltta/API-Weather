@@ -1,0 +1,97 @@
+.textCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 8%;
+
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.desc {
+    font-size:larger;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}  
+
+
+.apilink {
+    color:red
+}
+
+.textd {
+    display: flex;
+    justify-content: center;
+    text-decoration:underline ;
+    padding-bottom: 15px;
+}
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.fine {
+    font-weight: 200;
+    color: rgb(73, 73, 73);
+}
+
+.net {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    flex-direction: column;
+    width: 65px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.net p {
+    cursor:pointer;
+    justify-content: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex
+}
+
+.boxima {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.image {
+    margin-bottom: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.net:hover {
+    /* background-color: #fff4e34b; */
+    margin-top: 40px;
+    border-radius: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+}
+
+
+

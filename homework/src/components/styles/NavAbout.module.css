@@ -1,0 +1,58 @@
+.tutonav {
+    /* background-color: #fff4e360; */
+    /* background: linear-gradient(150deg, #fff4e360, #fff4e388, #fff4e338); */
+    background-size: 300% 200%;
+    /* justify-content: center; */
+    display: flex;
+}
+
+.navposs {
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 12px;
+    margin-left: 12px;
+    justify-content: space-between;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+}
+
+.img2 {
+    margin-top: 4px;
+    width: 37px;
+    height: 37px;
+    margin-left: 2px
+}
+
+.texti {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    color: black;
+    padding-top: 4px;
+}
+.textd {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.fine {
+    font-weight: 200;
+    color: rgb(73, 73, 73);
+}
+
+.bar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
