@@ -1,9 +1,11 @@
 import React from "react";
 import s from "./styles/AboutMe.module.css";
+import NavOutSearch from "../components/NavOutSearch";
 
 export default function AboutMe() {
   return (
     <div>
+      <NavOutSearch />
       <div className={s.textCont}>
         <div className={s.textd}>
           <h2 className={s.bold}>About</h2>
@@ -29,15 +31,15 @@ export default function AboutMe() {
       </div>
       <div className={s.boxima}>
         <div className={s.net}>
-            <a style={{color: "black", textDecoration: "none"}} href="https://github.com/PaulPeraltta"><img className={s.image} src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+            <a style={{color: "black", textDecoration: "none"}} href="https://github.com/PaulPeraltta" target="_blank"><img className={s.image} src="https://img.icons8.com/ios-filled/50/000000/github.png" />
             <p>GitHub</p></a>
         </div>
         <div className={s.net}>
-            <a style={{color: "black", textDecoration: "none"}} href="https://www.linkedin.com/in/pablo-peralta-it/"><img className={s.image} src="https://img.icons8.com/color/50/000000/linkedin.png" />
+            <a style={{color: "black", textDecoration: "none"}} href="https://www.linkedin.com/in/pablo-peralta-it/" target="_blank"><img className={s.image} src="https://img.icons8.com/color/50/000000/linkedin.png" />
             <p>LinkedIn</p></a>
         </div>
         <div className={s.net}>
-            <a style={{color: "black", textDecoration: "none"}} href="mailto:pabloperalta.it@gmail.com"><img className={s.image} src="https://img.icons8.com/fluency/48/000000/gmail-new.png" />
+            <a style={{color: "black", textDecoration: "none"}} href="mailto:pabloperalta.it@gmail.com" target="_blank"><img className={s.image} src="https://img.icons8.com/fluency/48/000000/gmail-new.png" />
             <p>Gmail</p></a>
         </div>
       </div>

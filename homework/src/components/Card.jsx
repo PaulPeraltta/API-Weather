@@ -29,7 +29,7 @@ export default function Card(props) {
           <img className={s.img} src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt='img' />
         </div>
         <div className={s.info}>
-        <Link to={`/city/${props.id}`} style={{color: 'rgba(255, 255, 255, 0.692)', textDecoration:'none'}}><p>Informacion Detallada</p></Link>
+        <Link to={`/city/${props.id}`} style={{color: '#5ad8ff', textDecoration:'none'}}><p>Informacion Detallada</p></Link>
         </div>
       </div>
     </div>

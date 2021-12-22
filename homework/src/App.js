@@ -45,7 +45,7 @@ function App() {
         return <CityDetail id={id} onBack={history.goBack} />
       }} />
       <Route path='/about'>
-        <NavAbout />
+        {/* <NavAbout /> */}
         <AboutMe />
       </Route>
     </div>
