@@ -1,5 +1,4 @@
 import React from 'react';
-import IndCard from '../components/IndCard.jsx';
 import Cards from '../components/Cards.jsx';
 import SearchBar from '../components/SearchBar.jsx';
 import s from './styles/CitiesPage.module.css'
@@ -11,31 +10,14 @@ export default function CitiesPage({data, onSearch, handleOnClose}) {
             <div>
                 <Nav onSearch={onSearch} />
             </div>
-            <div className={s.fond}>
-            <div className={s.searchbar}>
-            </div>
-            </div>
-            <div className={s.cardInd}>
-                {data.length > 0 ? (
-                        // <IndCard
-                        //     max={data[data.length - 1].max}
-                        //     min={data[data.length - 1].min}
-                        //     name={data[data.length - 1].name}
-                        //     img={data[data.length - 1].img}
-                        //     temp={data[data.length -1].temp}
-                        // />
-                    <p>Hola</p>
-                ) : 
-                    <h5 className={s.not}>No hay ciudades seleccionadas</h5>
-                    }
-            </div>
-            
-            {/* <hr /> */}
+            <SearchBar onSearch={onSearch} />
             <div className={s.cards}>
+                {data.length > 0 ? 
                 <Cards
                     cities={data} onClose={handleOnClose}
                 />
+                : <h5 className={s.not}>No hay ciudades seleccionadas</h5>}
             </div>
-            </div>
+        </div>
     )
 }

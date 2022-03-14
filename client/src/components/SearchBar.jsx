@@ -2,8 +2,6 @@ import React from "react";
 import s from "./styles/SearchBar.module.css";
 
 export default function SearchBar({onSearch}) {
-  // acá va tu código
-
 
   const handleOnSearch = () => {
     const input = document.getElementById("searchInput");

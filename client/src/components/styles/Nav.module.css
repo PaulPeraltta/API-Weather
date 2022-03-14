@@ -1,13 +1,21 @@
 .tutonav {
     /* background-color: #fff4e360; */
     /* background: linear-gradient(150deg, #fff4e360, #fff4e388, #fff4e338); */
-    background-size: 300% 200%;
-    /* margin-bottom: 25px; */
-    background-color: rgba(255, 255, 255, 0.459);
+    /* background-size: 300% 200%; */
+
+
+
+
+
+
+    margin-bottom: 25px;
+
+
+    /* background-color: rgba(255, 255, 255, 0.459);
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100vw;
+    left: 0; */
+    width: 50vw;
 }
 
 .navposs {
@@ -39,6 +47,11 @@
     padding-top: 4px;
     color: white;
 }
+
+.texti h2 {
+    font-size: 60px;
+}
+
 .textd {
     display: flex;
     justify-content: right;
