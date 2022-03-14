@@ -25,7 +25,7 @@ export default function Card(props) {
             </div>
           </div>
         </div>
-        <div style={{width: '100px', height: '100px', alignItems: 'center', marginLeft:'20px'}}>
+        <div style={{width: '120px', height: '120px', alignItems: 'center', marginLeft:'20px'}}>
           <img className={s.img} src={`http://openweathermap.org/img/wn/${props.img}@2x.png`} alt='img' />
         </div>
         <div className={s.info}>

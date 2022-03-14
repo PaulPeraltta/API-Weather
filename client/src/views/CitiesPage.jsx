@@ -17,14 +17,14 @@ export default function CitiesPage({data, onSearch, handleOnClose}) {
             </div>
             <div className={s.cardInd}>
                 {data.length > 0 ? (
-                        <IndCard
-                            max={data[data.length - 1].max}
-                            min={data[data.length - 1].min}
-                            name={data[data.length - 1].name}
-                            img={data[data.length - 1].img}
-                            temp={data[data.length -1].temp}
-                        />
-                    
+                        // <IndCard
+                        //     max={data[data.length - 1].max}
+                        //     min={data[data.length - 1].min}
+                        //     name={data[data.length - 1].name}
+                        //     img={data[data.length - 1].img}
+                        //     temp={data[data.length -1].temp}
+                        // />
+                    <p>Hola</p>
                 ) : 
                     <h5 className={s.not}>No hay ciudades seleccionadas</h5>
                     }
