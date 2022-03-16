@@ -1,8 +1,5 @@
 .tutonav {
-    /* background-color: #fff4e360; */
-    /* background: linear-gradient(150deg, #fff4e360, #fff4e388, #fff4e338); */
     background-size: 300% 200%;
-    /* justify-content: center; */
     display: flex;
 }
 

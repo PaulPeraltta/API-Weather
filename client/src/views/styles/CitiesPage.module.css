@@ -1,51 +1,94 @@
+.head {
+    /* width: 60vw; */
+    padding: 15px 0;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-weight: 300;
+}
+
 .cards {
-    width: 100%;
-    margin-top: 30px;
-    /* margin-bottom: 2%; */
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin-bottom: 8vh;
 }
 
 .not {
-    font-size: 180%;
-    /* margin-top: 15%; */
+    /* width: 100vw; */
+    height: fit-content;
     display: flex;
+    font-size: 180%;
     justify-content: center;
+    margin: 10vh;
+}
+
+.textd {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    padding-top: 8px;
+    color: white;
+}
+
+.bold {
+    font-weight: 400;
+    color: black;
+}
+
+.fine {
+    font-weight: 200;
+    color: rgb(73, 73, 73);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display:flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 30px;
+    cursor: pointer;
+    margin-right: 15px;
 }
 
 /* ----------------------------------------------------------------------------- */
 
-@media (max-width:320px) {
+@media (max-width:480px) {
+    .head {
+        padding: 30px 0 15px;
+    }
+
     .cards {
         display: flex;
-        justify-content: center;
-        /* margin-left: -55px; */
-        /* margin-right: 5px; */
+        flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
+        height: fit-content;
+        padding-bottom: 55px;
+        margin-bottom: 100vh;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
     }
 
     .not {
-        display: flex;
-        justify-content: center;
         font-size: larger;
+        margin: 18vh 0 35vh;
     }
 
-    .searchbar {
-        /* background-color: whitesmoke; */
-        position: absolute;
-        bottom: 80px;
-        left: 130px;
+    .footer{
         position: fixed;
+        background-color: white;
     }
-/* 
-    .fond {
-        background-color: whitesmoke; 
-        position: absolute;
-        bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 100%;
-        position: fixed;
-        background-color: black ;
-    } */
+
 }

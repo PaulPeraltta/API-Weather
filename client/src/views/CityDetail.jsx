@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import fetchById from "../services/FetchById";
-import NavOutSearch from "../components/NavOutSearch";
 import s from "./styles/CityDetail.module.css";
 
 export default function CityDetail({ id, onBack }) {
@@ -19,7 +18,6 @@ export default function CityDetail({ id, onBack }) {
       {city === null && <h3>No se han encontrado datos</h3>}
       {city && (
         <div className={s.cardDet}>
-          <NavOutSearch />
           <div className={s.head}>
             <h1 className={s.name}>{city.name}</h1>
             <div>

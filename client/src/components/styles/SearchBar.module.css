@@ -1,11 +1,10 @@
-
-
 .cont {
     align-content: center;
     display: flex;
     flex-direction: row;
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0.459);
+    margin: 10px 0;
 }
 
 .inp {
@@ -26,18 +25,21 @@
 }
 
 .btn {
-    outline: transparent;
     background-color: transparent;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.61);
     padding-left: 10px;
     padding-right: 20px;
+    outline: none !important;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .cont {
-        position: absolute;
-        top: 75px;
-        left: 0;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .inp {
+        width: 70vw;
     }
 }
