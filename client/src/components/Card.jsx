@@ -7,12 +7,12 @@ export default function Card(props) {
   // let min = props.min - 273.15;
   // let max = props.max - 273.15;
   return (
-    <Link to={`/city/${props.id}`} style={{color: '#5ad8ff', textDecoration:'none'}}>
-
-      <div className={s.card}>
+    
+    <div className={s.card}>
         <div>
           <button className={s.btn} onClick={props.onClose}><img className={s.closeImg} src="https://img.icons8.com/material-rounded/24/ffffff/delete-sign.png" alt="Close"/></button>
         </div>
+        <Link to={`/city/${props.id}`} style={{color: 'white', textDecoration:'none'}}>
         <div className={s.poss}>
           <div className={s.align}>
             <h3>{props.name}</h3>
@@ -34,7 +34,7 @@ export default function Card(props) {
           <p>Informacion Detallada</p>
           </div>
         </div>
-      </div>
     </Link>
+      </div>
   )
 };
