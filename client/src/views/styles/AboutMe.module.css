@@ -1,9 +1,53 @@
+.btnback {
+    background-color: transparent;
+    border: transparent;
+    height: auto;
+    outline: none !important;
+    margin-right: 35px;
+}
+
+.head {
+    padding: 15px 0;
+}
+
+.navposs {
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+.texti {
+    display: flex;
+    justify-content: left;
+    text-decoration: none;
+    padding-top: 4px;
+    color: white;
+}
+
+.texti h2 {
+    font-size: 60px;
+}
+
+.bold {
+    font-weight: 400;
+    color: black;
+}
+
+.fine {
+    font-weight: 200;
+    color: rgb(73, 73, 73);
+}
+
+.info {
+    display: flex;
+    padding: 0 150px;
+}
+
 .textCont {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 8%;
-
+    padding-right: 10px;
 }
 
 .hello {
@@ -14,10 +58,6 @@
 
 .desc {
     font-size:larger;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-
 }  
 
 
@@ -25,36 +65,25 @@
     color:red
 }
 
-.textd {
-    display: flex;
-    justify-content: center;
-    text-decoration:underline ;
-    padding-bottom: 15px;
-}
-
-.bold {
-    font-weight: 700;
-    color: black;
-}
-
-.fine {
-    font-weight: 200;
-    color: rgb(73, 73, 73);
-}
-
 .net {
+    width: 120px;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 35px;
     flex-direction: column;
-    width: 65px;
-    margin-left: 5%;
-    margin-right: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 12px;
     padding-right: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.net:hover {
+    border-radius: 25px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .net p {
@@ -64,15 +93,23 @@
     padding-bottom: 3px;
     padding-left: 8px;
     padding-right: 8px;
-    display: flex
+    display: flex;
+    margin-bottom: 0;
+}
+
+.imgContainer {
+    /* width: 50vw; */
+}
+
+.imagenPerfil {
+    width: 25rem;
+    border-radius: 50%;
 }
 
 .boxima {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 7%;
-    margin-right: 7%;
 }
 
 .image {
@@ -82,16 +119,31 @@
 }
 
 
-.net:hover {
-    /* background-color: #fff4e34b; */
-    margin-top: 40px;
-    border-radius: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 700;
+@media (max-width:480px) {
+    .info {
+        flex-direction: column-reverse;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagenPerfil {
+        width: 40vw;
+    }
+
+    .textCont {
+        border-radius: 10px;
+        margin-top: 15px;
+        padding: 10px 10px 0px;
+        background-color: rgba(255, 255, 255, 0.658);
+    }
+
+    .image {
+        margin-bottom: 0;
+    }
 }
-
-
 
