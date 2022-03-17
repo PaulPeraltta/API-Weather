@@ -45,9 +45,11 @@ function App() {
           return <CityDetail id={id} onBack={history.goBack} />;
         }}
       />
-      <Route path="/about">
-        <AboutMe />
-      </Route>
+      <Route path="/about"
+      render={({ match, history }) => {
+        return <AboutMe onBack={history.goBack}/>
+      }}
+      />
     </div>
   );
 }

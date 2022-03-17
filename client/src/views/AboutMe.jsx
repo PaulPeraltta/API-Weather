@@ -2,12 +2,15 @@ import React from "react";
 import s from "./styles/AboutMe.module.css";
 import ME from "../assets/Iam.png";
 
-export default function AboutMe() {
+export default function AboutMe({onBack}) {
   return (
     <div>
       <div className={s.head}>
         <nav className={s.navposs}>
             <div className={s.texti}>
+              <button onClick={onBack} className={s.btnback}>
+                <img src="https://img.icons8.com/windows/32/000000/long-arrow-left.png" />
+              </button>
               <h2 className={s.bold}>About</h2>
               <h2 className={s.fine}>Me</h2>
             </div>
@@ -23,8 +26,8 @@ export default function AboutMe() {
         </p>
         <p className={s.desc}>
           This is my first App created with React, it was made with the help
-          of <span className={s.apilink} href="http://openweathermap.org">
-            openweathermap.org</span> API.
+          of <a className={s.apilink} href="http://openweathermap.org">
+            openweathermap.org</a> API.
         </p>
         <p className={s.desc}>
           If you want to contact me or chat with me, you can do it by the

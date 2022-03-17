@@ -1,3 +1,11 @@
+.btnback {
+    background-color: transparent;
+    border: transparent;
+    height: auto;
+    outline: none !important;
+    margin-right: 35px;
+}
+
 .head {
     padding: 15px 0;
 }
@@ -5,6 +13,7 @@
 .navposs {
     display: flex;
     justify-content: center;
+    margin-right: 70px;
 }
 
 .texti {
